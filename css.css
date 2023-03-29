@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-logo-text {
+    font-size: 28px;
+    font-family: Times New Roman;
+    border-style: solid;
+    width: 50px;
+    padding: 10px;
+    border-color: #4b6cc1;
+}
+
+.banner-image {
+    width: 70%;
+    margin: 20px;
+}
+
+.banner-container {
+    background-color: #0b0e18;
+    height: 100vh;
+    font-family: Roboto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-heading {
+    color: white;
+    font-size: 28px;
+}
+
+.banner-span {
+    color: #4b6cc1;
+}
+
+.banner-description {
+    color: #9aa5b1;
+    font-size: 18px;
+}
+
+.custom-button {
+    background-color: #d2d5db;
+    color: white;
+}
+
+
+.about-me-main-container {
+    background-color: #323f4b;
+    padding: 20px;
+    font-family: Roboto;    
+    border: none;
+}
+
+.about-me-image {
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+}
+
+.custom-heading {
+    color: #cced00;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about-me-heading {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-me-description {
+    color: #9aa5b1;
+    font-size: 15px;
+}
+
+.skills-main-container {
+    background-color: #1f2933;
+    padding: 20px;
+    font-family: Roboto;
+    border: none;
+}
+
+.skills-card-image {
+    width: 60px;
+}
+
+.skills-card {
+    background-color: #323f4b;
+    width: 1300px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    margin: 0 50px;
+}
+
+.skills-card-heading {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.portfolio-main-container {
+    background-color: #3e4c59;
+    padding: 20px;
+    font-family: Roboto;
+}
+
+.custom-heading {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.portfolio-heading {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.portfolio-card-image {
+    width: 80%;
+    margin: 0 50px;
+}
+
+.portfolio-card {
+    background-color: #323f4b;
+}
+
+.portfolio-card-decription-container {
+    padding: 10px;
+}
+
+.portfolio-card-description-heading {
+    color: white;
+    font-size: 20px;
+}
+
+.portfolio-card-description-sub-text {
+    color: #9aa5b1;
+    font-size: 10px;
+}
+
+.portfolio-card-decription {
+    color: #9aa5b1;
+    font-size: 15px;
+}
+
+.portfolio-link {
+    color: #cced00;
+    font-size: 10px;
+}
+
+.services-main-container {
+    background-color: #52606d;
+    padding: 20px;
+    font-family: Roboto;
+    height: 100%;
+}
+
+.custom-heading {
+    color: #cced00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.services-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.services-card {
+    background-color: #323f4b;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.services-card-image {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.services-card-heading {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.services-card-description {
+    color: #9aa5b1;
+    font-size: 15px;
+}
+
+.work-main-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png');
+    background-size: cover;
+    width: 100%;
+    font-family: Roboto;
+    padding: 20px;
+}
+
+.work-card {
+    color: white;
+    text-align: center;
+    width: 60px;
+    padding: 8px;
+}
+
+.work-card-number {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.work-card-description {
+    font-size: 11px;
+    color: #e6e9ed;
+}
+
+.work-card-line {
+    background-color: white;
+}
+
+.work-card-icon {
+    font-size: 40px;
+}
+
+.testimonials-card-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+}
+
+.testimonials-card-image-center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonials-main-container {
+    background-color: #1f2933;
+    font-family: Roboto;
+    padding: 20px;
+    height: 100%;
+}
+
+.testimonials-carousel-card {
+    background-color: #323f4b;
+    padding: 10px;
+}
+
+.custom-heading {
+    color: #cced00;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.testimonials-heading {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.testimonials-card-description {
+    color: #9aa5b1;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.testimonials-card-name {
+    color: white;
+    font-size: 16px;
+}
+
+.footer-main-container {
+    background-color: #0d2436;
+    padding: 20px;
+    font-family: Roboto;
+    height: 100%;
+}
+
+.footer-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.footer-heading {
+    color: #cced00;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.footer-text {
+    color: #9aa5b1;
+    font-size: 15px;
+}
+
+.footer-text-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.footer-profile-section {
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    color: #5a7184;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.footer-copyright-section {
+    background-color: #001c32;
+    padding: 10px;
+    text-align: center;
+}
